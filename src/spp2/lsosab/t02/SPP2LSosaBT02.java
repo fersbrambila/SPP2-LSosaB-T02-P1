@@ -44,9 +44,10 @@ public class SPP2LSosaBT02 {
 			break;
 			case 4:
 			     pago = sue + (he*70);
-			break;                                                
-                        default:
-                            System.out.println("Categoría sin valor disponilbe");
+			break;   
+			default:
+                        System.out.println("La categorá seleccionada no tiene un valor disponilbe por hora extra");
+                            pago= sue;
 			}
 		System.out.println("El pago final es de: $"+pago);
 		}
